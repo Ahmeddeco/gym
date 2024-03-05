@@ -1,7 +1,14 @@
 import React from 'react'
 
 const Brands = () => {
-	return <section className='h-screen bg-lime-300'>Brands</section>
+	return (
+		<section
+			id='contact'
+			className='h-screen bg-lime-300'
+		>
+			Brands
+		</section>
+	)
 }
 
 export default Brands

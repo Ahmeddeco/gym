@@ -2,9 +2,13 @@
 
 import { links } from '@/constant/data'
 import React from 'react'
+import { useMediaQuery } from 'react-responsive'
 import { Link as ScrollLink } from 'react-scroll'
 
-const Nav = ({ containerStyles }: { containerStyles: string }) => {
+const MobileNav = ({ containerStyles }: { containerStyles: string }) => {
+	const isMobile = useMediaQuery({
+		query: '(max-width:640px)',
+	})
 	return (
 		<nav className={`${containerStyles}`}>
 			{links.map((link, index) => {
@@ -14,9 +18,9 @@ const Nav = ({ containerStyles }: { containerStyles: string }) => {
 						to={link.target}
 						smooth
 						spy
-						activeClass='active'
-						key={index}
+						activeClass={`${!isMobile && 'active'}`}
 						className='cursor-pointer hover:text-accent transition-all'
+						key={index}
 					>
 						{link.name}
 					</ScrollLink>
@@ -26,4 +30,4 @@ const Nav = ({ containerStyles }: { containerStyles: string }) => {
 	)
 }
 
-export default Nav
+export default MobileNav
