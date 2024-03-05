@@ -12,7 +12,7 @@ const HeroSlider = () => {
 	return (
 		<Swiper className='h-auto'>
 			<SwiperSlide className=''>
-				<div className='h-full flex justify-end  py-32'>
+				<div className='h-full flex justify-end  py-44'>
 					<div className='flex flex-col items-center lg:items-start lg:max-w-[700px] lg:gap-6 gap-16'>
 						<motion.h1
 							variants={fadeIn('up', 0.4)}
@@ -43,17 +43,15 @@ const HeroSlider = () => {
 						>
 							<CustomButton
 								text={'Get started'}
-								containerStyles={
-									'w-[196px] h-[62px] bg-red-300'
-								}
+								containerStyles={'w-[196px] h-[62px] '}
 							/>
 						</motion.div>
 					</div>
 				</div>
 			</SwiperSlide>
-            
+
 			<SwiperSlide className=''>
-				<div className='h-full flex justify-end  py-32'>
+				<div className='h-full flex justify-end  py-44'>
 					<div className='flex flex-col items-center lg:items-start lg:max-w-[700px] lg:gap-6 gap-16'>
 						<motion.h1
 							variants={fadeIn('up', 0.4)}
@@ -84,9 +82,7 @@ const HeroSlider = () => {
 						>
 							<CustomButton
 								text={'Get started'}
-								containerStyles={
-									'w-[196px] h-[62px] bg-red-300'
-								}
+								containerStyles={'w-[196px] h-[62px]'}
 							/>
 						</motion.div>
 					</div>
@@ -94,10 +90,10 @@ const HeroSlider = () => {
 			</SwiperSlide>
 
 			{/* swiper nav buttons */}
-			<div className='pt-12'>
+			<div className=''>
 				<SwiperNavButtons
 					containerStyles='absolute bottom-2 lg:bottom-0 right-0 h-[130px] w-full lg:w-[700px] z-50 flex justify-center  lg:justify-start gap-2'
-					btnStyles='border border-accent text-white w-[56px] h-[56px] flex justify-center items-center hover:bg-accent transition-a;; duration-300'
+					btnStyles='border border-accent text-white w-[56px] h-[56px] flex justify-center items-center hover:bg-accent transition-all duration-300'
 					iconsStyles='text-2xl '
 				/>
 			</div>
