@@ -4,7 +4,7 @@ import HeroSlider from './HeroSlider'
 const Hero = () => {
 	return (
 		<section
-			className='h-auto min-h-screen bg-hero bg-cover bg-center bg-no-repeat'
+			className='bg-hero bg-cover bg-center bg-no-repeat'
 			id='home'
 		>
 			<div className='container mx-auto h-auto'>

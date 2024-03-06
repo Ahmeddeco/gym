@@ -13,14 +13,16 @@ const Classes = () => {
 			id='class'
 			className=''
 		>
-			<div className='grid grid-cols-1 lg:grid-cols-2 '>
+			<motion.div
+				variants={fadeIn('up', 0.6)}
+				initial='hidden'
+				whileInView={'show'}
+				viewport={{ once: false, amount: 0.2 }}
+				className='grid grid-cols-1 lg:grid-cols-2 '
+			>
 				{classes.map((item, index) => {
 					return (
-						<motion.div
-							variants={fadeIn('up', 0.6)}
-							initial='hidden'
-							whileInView={'show'}
-							viewport={{ once: false, amount: 0.2 }}
+						<div
 							className='relative w-full h-[300px] lg:h-[485px] flex flex-col items-center justify-center '
 							key={index}
 						>
@@ -65,10 +67,10 @@ const Classes = () => {
 									/>
 								</motion.div>
 							</div>
-						</motion.div>
+						</div>
 					)
 				})}
-			</div>
+			</motion.div>
 		</section>
 	)
 }

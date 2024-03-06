@@ -3,13 +3,14 @@ import { IoIosPricetags } from 'react-icons/io'
 import { FaDumbbell } from 'react-icons/fa6'
 import { FaBriefcase, FaClock, FaTrophy } from 'react-icons/fa'
 import { ImUsers } from 'react-icons/im'
+import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa'
 
 export const links = [
 	{ name: 'home', target: 'home', offset: -100 },
 	{ name: 'about', target: 'about', offset: -80 },
 	{ name: 'class', target: 'class', offset: -80 },
-	{ name: 'team', target: 'team', offset: 0 },
-	{ name: 'prices', target: 'prices', offset: -40 },
+	{ name: 'team', target: 'team', offset: -80 },
+	{ name: 'prices', target: 'prices', offset: -80 },
 	{ name: 'testimonial', target: 'testimonial', offset: 0 },
 	{ name: 'blog', target: 'blog', offset: 0 },
 	{ name: 'contact', target: 'contact', offset: 0 },
@@ -83,5 +84,56 @@ export const classes = [
 		img: '/assets/img/classes/crossfit.jpg',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum aspernatur asperiores fugit laudantium.',
+	},
+]
+
+export const trainerData = [
+	{
+		image: '/assets/img/trainers/david.jpg',
+		name: 'David Williams',
+		role: 'Body builder coach',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum aspernatur asperiores fugit laudantium.',
+		social: [
+			{ icon: FaFacebook, href: 'http://facebook.com' },
+			{ icon: FaTwitter, href: 'http://twitter.com' },
+			{ icon: FaYoutube, href: 'http://youtube.com' },
+		],
+	},
+	{
+		image: '/assets/img/trainers/rosy.jpg',
+		name: 'Rosy Rivera',
+		role: 'Body builder coach',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum aspernatur asperiores fugit laudantium.',
+		social: [
+			{ icon: FaFacebook, href: 'http://facebook.com' },
+			{ icon: FaTwitter, href: 'http://twitter.com' },
+			{ icon: FaYoutube, href: 'http://youtube.com' },
+		],
+	},
+	{
+		image: '/assets/img/trainers/matt.jpg',
+		name: 'Matt Stoner',
+		role: 'Body builder coach',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum aspernatur asperiores fugit laudantium.',
+		social: [
+			{ icon: FaFacebook, href: 'http://facebook.com' },
+			{ icon: FaTwitter, href: 'http://twitter.com' },
+			{ icon: FaYoutube, href: 'http://youtube.com' },
+		],
+	},
+	{
+		image: '/assets/img/trainers/sofia.jpg',
+		name: 'Sofia Lauren',
+		role: 'Body builder coach',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum aspernatur asperiores fugit laudantium.',
+		social: [
+			{ icon: FaFacebook, href: 'http://facebook.com' },
+			{ icon: FaTwitter, href: 'http://twitter.com' },
+			{ icon: FaYoutube, href: 'http://youtube.com' },
+		],
 	},
 ]
