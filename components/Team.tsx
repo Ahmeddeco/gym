@@ -12,7 +12,7 @@ const Team = () => {
 	return (
 		<section
 			id='team'
-			className='py-12'
+			className='section py-12'
 		>
 			<div className='container mx-auto flex flex-col h-full items-center justify-center'>
 				<motion.h2

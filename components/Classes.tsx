@@ -11,7 +11,7 @@ const Classes = () => {
 	return (
 		<section
 			id='class'
-			className=''
+			className='section'
 		>
 			<motion.div
 				variants={fadeIn('up', 0.6)}

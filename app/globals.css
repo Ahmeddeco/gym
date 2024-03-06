@@ -31,11 +31,11 @@
 	.h5 {
 		@apply text-[22px];
 	}
+	.section {
+		@apply h-auto min-h-screen;
+	}
 }
 
 .active {
 	@apply text-accent;
 }
- .section{
-	@apply min-h-screen h-auto
- }

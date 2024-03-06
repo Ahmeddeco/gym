@@ -4,7 +4,7 @@ const Blog = () => {
 	return (
 		<section
 			id='blog'
-			className='h-screen bg-orange-300'
+			className='section bg-orange-300'
 		>
 			Blog
 		</section>

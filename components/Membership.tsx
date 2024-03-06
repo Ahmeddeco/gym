@@ -4,7 +4,7 @@ const Membership = () => {
 	return (
 		<section
 			id='prices'
-			className='h-screen bg-lime-300'
+			className='section bg-lime-300'
 		>
 			Membership
 		</section>

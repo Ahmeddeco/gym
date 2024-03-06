@@ -8,7 +8,7 @@ import Achievements from './Achievements'
 const About = () => {
 	return (
 		<section
-			className='pt-8 pb-14 lg:pt-16 lg:pb-28 '
+			className='section pt-8  lg:pt-16  '
 			id='about'
 		>
 			<div className='container mx-auto'>
