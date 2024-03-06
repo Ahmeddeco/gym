@@ -7,7 +7,7 @@ import { ImUsers } from 'react-icons/im'
 export const links = [
 	{ name: 'home', target: 'home', offset: -100 },
 	{ name: 'about', target: 'about', offset: -80 },
-	{ name: 'class', target: 'class', offset: -800 },
+	{ name: 'class', target: 'class', offset: -80 },
 	{ name: 'team', target: 'team', offset: 0 },
 	{ name: 'prices', target: 'prices', offset: -40 },
 	{ name: 'testimonial', target: 'testimonial', offset: 0 },
@@ -56,5 +56,32 @@ export const stats = [
 		number: 9,
 		icon: FaTrophy,
 		text: 'international awards',
+	},
+]
+
+export const classes = [
+	{
+		name: 'body building',
+		img: '/assets/img/classes/bodybuilding.jpg',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum aspernatur asperiores fugit laudantium.',
+	},
+	{
+		name: 'cardio',
+		img: '/assets/img/classes/cardio.jpg',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum aspernatur asperiores fugit laudantium.',
+	},
+	{
+		name: 'fitness',
+		img: '/assets/img/classes/fitness.jpg',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum aspernatur asperiores fugit laudantium.',
+	},
+	{
+		name: 'crossfit',
+		img: '/assets/img/classes/crossfit.jpg',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Non harum aspernatur asperiores fugit laudantium.',
 	},
 ]
