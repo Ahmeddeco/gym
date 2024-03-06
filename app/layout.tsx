@@ -31,7 +31,7 @@ export default function RootLayout({
 			className='bg-gray-200'
 		>
 			<body
-				className={`${oswald.variable} ${roboto.variable} w-full max-w-[1920px] mx-auto bg-white`}
+				className={`${oswald.variable} ${roboto.variable} w-full max-w-[1920px] mx-auto bg-primary-200/90 `}
 			>
 				<Header />
 				{children}
