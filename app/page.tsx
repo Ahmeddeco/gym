@@ -15,11 +15,7 @@ export default function Home() {
 			<Classes />
 			<Team />
 			<Membership />
-			<Testimonial />
-			<Blog />
 			<Brands />
-			{/* temporary div*/}
-			{/* <div className='h-[3000px]'></div> */}
 		</main>
 	)
 }
