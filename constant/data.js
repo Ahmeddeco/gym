@@ -1,18 +1,19 @@
-import { FaUsers, FaUser } from 'react-icons/fa'
+import { FaUsers, FaUser, FaCheck } from 'react-icons/fa'
 import { IoIosPricetags } from 'react-icons/io'
 import { FaDumbbell } from 'react-icons/fa6'
 import { FaBriefcase, FaClock, FaTrophy } from 'react-icons/fa'
 import { ImUsers } from 'react-icons/im'
 import { FaFacebook, FaTwitter, FaYoutube } from 'react-icons/fa'
+import { MdClose } from 'react-icons/md'
 
 export const links = [
 	{ name: 'home', target: 'home', offset: -100 },
-	{ name: 'about', target: 'about', offset: -80 },
-	{ name: 'class', target: 'class', offset: -80 },
-	{ name: 'team', target: 'team', offset: -80 },
-	{ name: 'prices', target: 'prices', offset: -80 },
-	{ name: 'testimonial', target: 'testimonial', offset: 0 },
-	{ name: 'blog', target: 'blog', offset: 0 },
+	{ name: 'about', target: 'about', offset: -60 },
+	{ name: 'class', target: 'class', offset: -100 },
+	{ name: 'team', target: 'team', offset: -100 },
+	{ name: 'prices', target: 'prices', offset: 0 },
+	{ name: 'testimonial', target: 'testimonial', offset: -100 },
+	{ name: 'blog', target: 'blog', offset: -100 },
 	{ name: 'contact', target: 'contact', offset: 0 },
 ]
 
@@ -134,6 +135,111 @@ export const trainerData = [
 			{ icon: FaFacebook, href: 'http://facebook.com' },
 			{ icon: FaTwitter, href: 'http://twitter.com' },
 			{ icon: FaYoutube, href: 'http://youtube.com' },
+		],
+	},
+]
+
+export const membershipData = [
+	{
+		title: 'standard',
+		price: '30',
+		benefits: [
+			{
+				icon: FaCheck,
+				text: 'Includes membership',
+			},
+			{
+				icon: FaCheck,
+				text: 'Access to all gym facilities',
+			},
+			{
+				icon: MdClose,
+				text: 'Diet plan included',
+			},
+			{
+				icon: FaCheck,
+				text: 'Health and fitness tips',
+			},
+			{
+				icon: MdClose,
+				text: 'Monday-Friday gym access',
+			},
+			{
+				icon: FaCheck,
+				text: 'Full access to everything',
+			},
+			{
+				icon: MdClose,
+				text: 'No additional amenities',
+			},
+		],
+	},
+	{
+		title: 'ultimate',
+		price: '45',
+		benefits: [
+			{
+				icon: FaCheck,
+				text: 'Includes membership',
+			},
+			{
+				icon: FaCheck,
+				text: 'Access to all gym facilities',
+			},
+			{
+				icon: FaCheck,
+				text: 'Diet plan included',
+			},
+			{
+				icon: FaCheck,
+				text: 'Health and fitness tips',
+			},
+			{
+				icon: FaCheck,
+				text: 'Monday-Friday gym access',
+			},
+			{
+				icon: FaCheck,
+				text: 'Full access to everything',
+			},
+			{
+				icon: MdClose,
+				text: 'No additional amenities',
+			},
+		],
+	},
+	{
+		title: 'professional',
+		price: '60',
+		benefits: [
+			{
+				icon: FaCheck,
+				text: 'Includes membership',
+			},
+			{
+				icon: FaCheck,
+				text: 'Access to all gym facilities',
+			},
+			{
+				icon: FaCheck,
+				text: 'Diet plan included',
+			},
+			{
+				icon: FaCheck,
+				text: 'Health and fitness tips',
+			},
+			{
+				icon: FaCheck,
+				text: 'Monday-Friday gym access',
+			},
+			{
+				icon: FaCheck,
+				text: 'Full access to everything',
+			},
+			{
+				icon: FaCheck,
+				text: 'No additional amenities',
+			},
 		],
 	},
 ]
